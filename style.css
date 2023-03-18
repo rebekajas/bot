@@ -1,0 +1,46 @@
+.wp-chatbot-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+}
+
+.wp-chatbot-dot {
+    width: 50px;
+    height: 50px;
+    background-color:red;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.wp-chatbot-window {
+    display: none;
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+    width: 300px;
+    height: 400px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+
+}
+
+.wp-chatbot-header {
+    background-color: #2196F3;
+    color: #fff;
+    padding: 10px;
+}
+
+.wp-chatbot-body {
+    padding: 10px;
+}
+.wp-chatbot-input-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ccc;
+    padding: 10px;
+  }
